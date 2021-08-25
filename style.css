@@ -1,0 +1,136 @@
+*,::before,::after{
+    box-sizing: border-box;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Poppins, sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.header{
+    background: rgb(13, 105, 133);
+    width: 100%;
+    min-height: 15rem;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    
+}
+   
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 3rem;
+    
+}
+nav a{
+    text-decoration: none;
+    color: #fff;
+}
+nav img{
+    margin-top: 15px;
+    display: inline-block;
+}
+.header_1{
+    flex: 1;
+    text-align: end;
+    
+}
+
+.header_1  ul  li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+    text-decoration: none;
+    font-size: 16px;
+}
+.nav_title{
+    text-align: center;
+    margin-top: 8% ;  
+}
+.nav_title h1 {
+    padding: 10px;
+    color: #fff;
+}
+.nav_title p{
+    color: #fff;
+}
+
+.container{
+    width: 100%;
+    max-width: 1170px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search-aria{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    margin-top: 50px;
+}
+.search-main{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.search-main h1{
+    color: #fff;
+    font-size: 46px;
+    padding: 10px;
+}
+.search-main h5{
+    color: #fff;
+    font-size: 20px;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.search-main form{
+    width: 100%;
+    max-width: 430px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    background: #fff;
+    padding: 0 30px;
+    position: relative;
+    margin-top: 10px;
+}
+
+.search-main input{
+    width: 100%;
+    font-size: 15px;
+    color: rgb(97, 93, 93);
+    border: 0;
+    outline: none;
+}
+.search-main input::placeholder{
+    font-size: 15px;
+    color: rgb(97, 93, 93);
+}
+.search-main button{
+    width: 28px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 30px;
+    border: 0;
+    background: transparent;
+    font-size: 20px;
+    color: rgb(97, 93, 93);
+}
